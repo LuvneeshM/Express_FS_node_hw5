@@ -9,9 +9,9 @@ const server = app.listen(port, listening)
 const jsonObj = null 
 const filename = "data.json"
 
-function listening(){
-	console.log("listening on port " + port)
-}
+//function listening(){
+//	console.log("listening on port " + port)
+//}
 
 //routes that save data to some JSON file
 app.get("/saveme/:data1", saveData)
