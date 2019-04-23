@@ -4,7 +4,7 @@ const port = process.env.PORT || 8080
 
 var fs = require('fs')
 
-const server = app.listen(port, listening)
+//const server = app.listen(port, listening)
 
 const jsonObj = null 
 const filename = "data.json"
